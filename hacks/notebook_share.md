@@ -4,7 +4,7 @@ https://jupyter-notebook.readthedocs.io/en/latest/public_server.html
 
 **Need to be in the same LAN for this to work**
 
-in remote terminal:
+In remote terminal:
 
 ```bash
 # get ip address
@@ -14,6 +14,8 @@ jupyter notebook --generate-config
 # password
 jupyter notebook password
 ```
+
+-----
 
 Change some stuff in remote notebook config:
 
@@ -32,12 +34,19 @@ Don't forget the slash in front of the notebook directory, one example would be:
 c.NotebookApp.notebook_dir = '/Users/rzhu/Documents' #starting directory
 ```
 
+For usyd physics, ssh to one of the HPCs and get ip address:
 
+```bash
+# For example, ssh to stan
+ssh stan
+# Then get HPC ip address by:
+hostname -i
+```
 
 run notebook in remote:
 
 ```bash
-jupyter notebook --ip <remote ip address> --port <port>
+jupyter notebook --ip <remote/HPC ip address> --port <port>
 ```
 
 In local browser: 

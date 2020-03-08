@@ -1,4 +1,4 @@
-## Junction AIS
+# Junction AIS
 
 Throughout the activation of ASNs, the voltages across the junctions are the key factors of collective dynmaics. Regarding the memory property exhibited by junctions, it's necessary to test the junctions' active information storage.
 
@@ -9,6 +9,7 @@ a(x_t) = i (\textbf{x}_{t-1}^{k-}; x_{t}) = \log \frac{p_t(x_t | \textbf{x}_{t-1
 $$
 
 * Junction (edge) current-flow centrality (http://kim246.wwwdns.kim.uni-konstanz.de/publications/bf-cmbcf-05.pdf):
+
 $$
 c_{CB}(e) = \frac{\sum_{s \neq t \in V}\tau_{st}(e)}{(n-1)(n-2)}
 $$

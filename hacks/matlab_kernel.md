@@ -15,3 +15,27 @@ install matlab_kernel:
 pip install matlab_kernel
 ```
 
+-----
+
+plot in matlab style
+
+```matlab
+%plot native
+```
+
+Back to inline
+
+```matlab
+%plot inline
+```
+
+------
+
+Function (in notebook)
+
+```matlab
+%%file func_name.m
+function output = func_name(input)
+end
+```
+
