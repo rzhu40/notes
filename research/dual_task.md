@@ -39,3 +39,9 @@ The non linear transformation accuracy is an average of 50 repetitions.
 If one start training for the second task from when the modularity is just about to drop, the accuracy from second task is significantly improved. And more training on the first task (starting second task from later states) will actually harm the accuracy of the second task. 
 
 ![](figure/dual_task.png)
+
+-----
+
+## Guimera
+
+![](figure/guimera_combine.png)
